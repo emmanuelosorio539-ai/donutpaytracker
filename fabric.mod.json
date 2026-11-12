@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "donutpay_tracker",
+  "version": "${version}",
+  "name": "DonutPay Tracker",
+  "description": "Tracker de apuestas /pay para DonutSMP: sesiones, rakeback por jugador, HUD, confirmación de pagos grandes y bids donde los pagos NO se apilan.",
+  "authors": ["tú"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.donutpay.DonutPayClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
